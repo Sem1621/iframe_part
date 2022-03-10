@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "external-site-in-share-point-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/externalSiteInSharePointPage/ExternalSiteInSharePointPageWebPart.js",
+          "manifest": "./src/webparts/externalSiteInSharePointPage/ExternalSiteInSharePointPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExternalSiteInSharePointPageWebPartStrings": "lib/webparts/externalSiteInSharePointPage/loc/{locale}.js"
+  }
+}
